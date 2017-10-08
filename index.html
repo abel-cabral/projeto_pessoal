@@ -1,13 +1,13 @@
-<body onload='life()'>
+<body onload="life()">
 	<script>
         var life = new function() {
           var name;
           var age = new Date().getFullYear() - 1991;
 
-            if (age >= 26) {
-                name = "Abel";
-            } else {
+            if (age > 26) {
                 name = "Juracer";
+            } else {
+                name = "Abel";
             }
             alert("I am " + name);
         }
